@@ -146,6 +146,7 @@
                     selectedUsers.push(this.value);
                 }
 
+                this.$emit('input', selectedUsers);
                 return selectedUsers;
             },
             cssProps() {

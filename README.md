@@ -26,6 +26,7 @@ new Vue({
 And in your blade template or html : 
 ```html
     <vue-city data="https://api-adresse.data.gouv.fr/search/?q="
+              v-model="yourVarName"
               :multiple="true"
               data_to_get="city"
               result_property="features"
